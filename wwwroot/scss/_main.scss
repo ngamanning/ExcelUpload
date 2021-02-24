@@ -1,0 +1,27 @@
+@import '_variables.scss';
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+  }
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+
+a {
+    color: #0366d6;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: $btn-primary;
+    border-color: $btn-primary;
+  }

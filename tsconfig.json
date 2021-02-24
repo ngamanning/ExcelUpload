@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {   
+    
+    "target": "ES5",
+    "baseUrl": ".",
+    "paths": {
+      "jquery": ["node_modules/jquery/dist/jquery"] // This mapping is relative to "baseUrl"
+    },   
+    "outDir": "wwwroot/js",
+    "strict": true
+  },
+  "removeComments": true,
+  "include": ["wwwroot/typescript/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

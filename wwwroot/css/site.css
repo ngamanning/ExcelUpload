@@ -1,0 +1,74 @@
+/* colors */
+/* fonts */
+/* button */
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* colors */
+/* fonts */
+/* button */
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #d6001c;
+  border-color: #d6001c;
+}
+
+/* colors */
+/* fonts */
+/* button */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  /* Vertically center the text there */
+}
+
+.footer .border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer .border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.footer .box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.footer button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+/*# sourceMappingURL=site.css.map */
